@@ -17,6 +17,28 @@ body {
     height: 100vh;
 }
 
+.gameOver {
+    visibility: hidden;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#start {
+    position: relative;
+    text-align: center;
+    top: 8rem;
+    background-color: greenyellow;
+    border: 0.01rem solid black;
+    border-radius: 20px;
+    height: 4rem;
+    width: 9rem;
+    font-size: 2rem;
+    display: inline;
+}
+
 .dino {
     background-image: url(https://media.gettyimages.com/illustrations/trex-dinosaur-illustration-illustration-id1155264958?s=2048x2048);
     background-repeat: no-repeat;
@@ -28,6 +50,19 @@ body {
     left: 180px;
 }
 
+#scoreCount {
+    font-size: 1.5rem;
+    position: relative;
+    left: 0.5rem;
+}
+
+.scoreBar {
+    position: relative;
+    text-align: center;
+    top: 4rem;
+    font-size: 2.5rem;
+}
+
 .obstacle {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfhiGK9l0veXtMbI9CqT30xrxZnv1mlzn6A&usqp=CAU);
     width: 125px;
@@ -37,15 +72,6 @@ body {
     position: absolute;
     bottom: 0;
     left: 64vw;
-}
-
-.gameOver {
-    visibility: hidden;
-    position: relative;
-    top: 2rem;
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .animateDino {
