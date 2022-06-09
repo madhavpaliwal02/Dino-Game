@@ -26,19 +26,6 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#start {
-    position: relative;
-    text-align: center;
-    top: 8rem;
-    background-color: greenyellow;
-    border: 0.01rem solid black;
-    border-radius: 20px;
-    height: 4rem;
-    width: 9rem;
-    font-size: 2rem;
-    display: inline;
-}
-
 .dino {
     background-image: url(https://media.gettyimages.com/illustrations/trex-dinosaur-illustration-illustration-id1155264958?s=2048x2048);
     background-repeat: no-repeat;
